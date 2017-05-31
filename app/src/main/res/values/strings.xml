@@ -5,4 +5,8 @@
     <string name="recycler_view">RecyclerView</string>
     <string name="enter_name">Enter name</string>
     <string name="submit">Submit</string>
+    <string name="page_main">Main PAGE</string>
+    <string name="page_second">Secoct PAGE</string>
+    <string name="go">go %1$s</string>
+    <string name="page_third">THIRD PAGE</string>
 </resources>

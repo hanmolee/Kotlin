@@ -14,8 +14,11 @@ class ExtensionFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {//이때부터 extension을 통해 뷰 객체에 접근가능
+
         button.setOnClickListener {
             textView.text = "hello Fragment, ${editTect.text.toString()}"
+
+
         }
     }
 }

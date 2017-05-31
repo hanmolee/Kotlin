@@ -36,7 +36,7 @@ class FeedAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
             is PhotoHolder -> holder.bindView("작가  $position", "설명  $position")
         //hloder가 Photoholder클래스 타입이라면 holder의 메서드인 bindView에 접근
-            is TextHolder -> holder.bindView("작가  $position",   "설명  $position")
+            is TextHolder -> holder.bindView("작가  $position", "설명  $position")
             //hloder가 Textholder클래스 타입이라면 holder의 메서드인 bindView에 접근
         }
 
@@ -54,17 +54,14 @@ class FeedAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
 
     inner class TextHolder(parent: ViewGroup) : RecyclerView.ViewHolder(LayoutInflater.
-            from(parent.context).inflate(R.layout.item_list, parent, false)) {
+            from(parent.context).inflate(R.layout.item_text, parent, false)) {
 
         fun bindView(author: String, description: String){
             with(itemView){
                 text_author.text = author
                 text_description.text = description
             }
-
         }
-
-
     }
 
 
