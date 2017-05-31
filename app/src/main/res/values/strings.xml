@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fuck</string>
+    <string name="activity">Activity</string>
+    <string name="fragment">Fragment</string>
+    <string name="recycler_view">RecyclerView</string>
+    <string name="enter_name">Enter name</string>
+    <string name="submit">Submit</string>
+</resources>
